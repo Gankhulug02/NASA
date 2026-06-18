@@ -7,6 +7,10 @@ const links = [
   { href: '#mars', label: 'Mars Rover' },
   { href: '#asteroids', label: 'Asteroids' },
   { href: '#earth', label: 'Earth' },
+  { href: '#weather', label: 'Space Weather' },
+  { href: '#events', label: 'Natural Events' },
+  { href: '#library', label: 'Image Library' },
+  { href: '#landsat', label: 'Landsat' },
 ]
 
 export default function Navbar() {

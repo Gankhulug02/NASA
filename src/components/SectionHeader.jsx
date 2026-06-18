@@ -5,6 +5,7 @@ const badgeStyles = {
   red:    'text-red-400 bg-red-400/10 border-red-400/25',
   green:  'text-green-400 bg-green-400/10 border-green-400/25',
   purple: 'text-purple-300 bg-purple-400/10 border-purple-400/25',
+  amber:  'text-amber-400 bg-amber-400/10 border-amber-400/25',
 }
 
 export default function SectionHeader({ badge, color = 'cyan', title, subtitle }) {

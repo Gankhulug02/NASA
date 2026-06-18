@@ -4,6 +4,10 @@ import APOD from './components/APOD'
 import MarsGallery from './components/MarsGallery'
 import AsteroidWatch from './components/AsteroidWatch'
 import EarthFromSpace from './components/EarthFromSpace'
+import SpaceWeather from './components/SpaceWeather'
+import NaturalEvents from './components/NaturalEvents'
+import ImageLibrary from './components/ImageLibrary'
+import LandsatExplorer from './components/LandsatExplorer'
 
 function Divider() {
   return (
@@ -24,6 +28,14 @@ export default function App() {
         <AsteroidWatch />
         <Divider />
         <EarthFromSpace />
+        <Divider />
+        <SpaceWeather />
+        <Divider />
+        <NaturalEvents />
+        <Divider />
+        <ImageLibrary />
+        <Divider />
+        <LandsatExplorer />
       </main>
       <footer className="relative z-10 text-center py-10 border-t border-white/[0.06] text-white/30 text-xs font-mono">
         <p>
